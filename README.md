@@ -1,52 +1,65 @@
-# Chat-Ey Bot: A Chatbot Application by Eyosyas
+# Chat-Ey Bot v2.0.0
 
-**Chat-Ey Bot** is a Python-based chatbot application built with `CustomTkinter` for a rich graphical user interface (GUI). This bot offers dynamic and static responses, allows users to chat interactively, and features functionalities such as viewing chat history, clearing chat, and clearing history. The bot can provide real-time information like the current date and time, and is easily extensible with additional responses.
+Chat-Ey Bot is now organized as a cleaner, modular Python app with better intent matching, safer history persistence, and a scalable folder structure.
 
-## Features
-- **Dynamic Responses**: The bot can reply with real-time data like the current time or today's date.
-- **Static Responses**: The bot has predefined responses for certain keywords and patterns.
-- **Chat History**: Keeps track of the entire conversation history.
-- **Clear Chat**: Option to clear the current chat screen.
-- **Clear History**: Clears the conversation history.
-- **Exit Functionality**: Allows users to exit the application.
+## What Improved In 2.0.0
+1. Better project organization with a src-based package layout.
+2. Improved response quality using token overlap plus fuzzy matching.
+3. Dynamic response templates for date and time.
+4. More reliable history persistence in a dedicated data directory.
+5. Backward compatibility launcher through chat.py.
 
-## Technologies Used
-- **Python 3**: Core programming language.
-- **CustomTkinter**: Used to build a modern, customizable GUI.
-- **JSON**: For storing and loading the bot's responses.
-- **OS**: File handling and path management.
+## Folder Structure
+```text
+Chat-Bot/
+  chat.py
+  README.md
+  requirements.txt
+  responses.json
+  data/
+    responses.json
+    history.json           # created automatically
+  src/
+    chatbot/
+      __init__.py
+      __main__.py
+      app.py
+      bot.py
+      storage.py
+      ui.py
+```
 
-## How It Works
-1. **Loading Responses**: The chatbot loads its responses from a `responses.json` file, which contains both dynamic and static response categories.
-2. **User Interaction**: The user inputs a message, and the bot generates a response based on the message. Dynamic responses, such as current time or date, are handled using dedicated functions.
-3. **GUI**: The application is built using CustomTkinter, which offers a sleek interface with an easy-to-navigate input/output area, buttons for various controls (such as clearing history or chat), and display areas for messages.
-
-## How to Run
+## Run The App
 1. Install dependencies:
-   ```
-   pip install customtkinter
-   ```
-2. Clone or download this repository.
-3. Ensure that you have a `responses.json` file in the same directory, containing the bot's responses.
-4. Run the script:
-   ```
-   python chatbot_app.py
-   ```
+```bash
+pip install -r requirements.txt
+```
+2. Start from the legacy launcher:
+```bash
+python chat.py
+```
 
-## Example Usage
+## How Response Matching Works
+1. Dynamic intents are checked first (for date/time style requests).
+2. Static and extended categories are scored using:
+   - direct phrase containment,
+   - token overlap,
+   - fuzzy similarity.
+3. If confidence is below threshold, the default fallback response is used.
 
-- **User Message**: "What's the time?"
-- **Bot Response**: "Current time is 14:35:21."
+## Your Data Files
+1. Primary response dataset is in data/responses.json.
+2. Legacy fallback file remains responses.json.
+3. Conversation history is saved to data/history.json.
 
-- **User Message**: "Hi bot!"
-- **Bot Response**: "Hello! I'm Chat-Ey, created by Eyosyas. How can I help you today?"
+## Best Thoughts For Next Upgrades
+1. Add unit tests for matcher scoring in src/chatbot/bot.py.
+2. Add a profile mode with user nickname and preferred tone.
+3. Add lightweight command mode (for example: /help, /clear, /history).
+4. Add export chat to txt and json from the UI.
+5. Add optional small local LLM integration while keeping JSON fallback.
 
-## Customizing the Bot
-- You can add your own responses to the `responses.json` file. It allows for easy modification and extension of the bot's capabilities.
-- Dynamic responses are triggered by keywords specified in the JSON file, and the corresponding function is called to provide real-time data.
+## Version
+Current version: 2.0.0
 
-
-## Created By
-**Eyosyas** 
-
----
+Created by Eyosyas.
