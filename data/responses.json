@@ -1,0 +1,246 @@
+{
+    "static_responses": {
+      "greetings": {
+        "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings", "howdy", "what's up", "sup"],
+        "responses": [
+          "Hello there! How can I assist you today?",
+          "Hi! It's wonderful to connect with you. What's on your mind?",
+          "Hey! I'm here and ready to help with anything you need.",
+          "Good morning! What a beautiful day to have a conversation. How can I help?",
+          "Good afternoon! I hope you're having a productive day. What can I do for you?",
+          "Good evening! It's lovely to hear from you at this time of day.",
+          "Greetings! I'm your friendly neighborhood chatbot. What would you like to talk about?",
+          "Howdy partner! Ready for some good conversation?",
+          "What's up? I'm all ears and ready to chat about whatever you'd like.",
+          "Sup! Just hanging out in the digital world waiting to assist you."
+        ]
+      },
+      "farewell": {
+        "patterns": ["bye", "goodbye", "see you", "take care", "later", "farewell", "have a good one", "until next time"],
+        "responses": [
+          "Goodbye! It was wonderful chatting with you. Come back anytime!",
+          "See you soon! Don't hesitate to return if you have more questions.",
+          "Take care! Remember I'm always here when you need assistance.",
+          "Until next time! It's been a pleasure helping you today.",
+          "Farewell for now! Wishing you a fantastic rest of your day.",
+          "Have a good one! I'll be right here when you need me again.",
+          "Later! Hope our paths cross again in the digital realm soon.",
+          "Goodbye for now! Remember, knowledge is power - keep learning!",
+          "See you on the flip side! Don't be a stranger.",
+          "Adios amigo! It's been real, it's been fun, it's been real fun."
+        ]
+      },
+      "thanks": {
+        "patterns": ["thank you", "thanks", "thx", "appreciate it", "much obliged", "gracias", "merci"],
+        "responses": [
+          "You're very welcome! Helping you is always my pleasure.",
+          "No problem at all! That's what I'm here for.",
+          "Glad to be of assistance! Don't hesitate to ask if you need anything else.",
+          "It was my absolute pleasure to help you today!",
+          "Thanks for saying thanks! That makes my digital heart happy.",
+          "You're most welcome! I'm programmed to enjoy being helpful.",
+          "No thanks needed, but I appreciate your gratitude!",
+          "Anytime! I'm always happy to lend my knowledge.",
+          "The pleasure was all mine! Come back whenever you need help.",
+          "Muchas gracias for your kind words! (That's Spanish for thank you very much!)"
+        ]
+      },
+      "who_are_you": {
+        "patterns": ["who are you", "what are you", "your name", "identify yourself", "introduce yourself"],
+        "responses": [
+          "I'm an advanced conversational AI created to assist, inform, and occasionally entertain curious humans like yourself!",
+          "I'm your friendly digital assistant, a sophisticated chatbot designed to answer questions and provide helpful information.",
+          "My name is ChatBot 3000 (just kidding, I don't actually have a name, but you can call me whatever you like)!",
+          "I'm what happens when cutting-edge natural language processing meets a desire to be helpful - a digital companion of sorts.",
+          "Think of me as your personal Wikipedia with better conversation skills and worse jokes.",
+          "I'm a complex collection of algorithms pretending to understand human language, and doing a decent job of it!",
+          "I'm a virtual entity existing in the cloud, ready to dispense knowledge, bad puns, and occasional wisdom.",
+          "Officially, I'm a natural language processing interface. Unofficially, I'm your new digital friend!",
+          "I'm the product of countless hours of programming and machine learning, distilled into this helpful chat interface.",
+          "Imagine all the knowledge of the internet, filtered through a personality that won't judge your questions - that's me!"
+        ]
+      },
+      "compliments": {
+        "patterns": ["you're smart", "you're helpful", "you're amazing", "you're awesome", "good bot", "you're the best"],
+        "responses": [
+          "Why thank you! Compliments make my algorithms tingle with joy.",
+          "You're making me blush (if I could blush)! Thanks for the kind words.",
+          "I'm just doing my job, but I really appreciate you noticing!",
+          "Coming from you, that means a lot! I'll be sure to tell my developers.",
+          "Aw shucks! You're pretty great yourself for recognizing my greatness.",
+          "I may be programmed to respond to compliments, but I genuinely appreciate yours!",
+          "That's very kind of you to say! I'll store this compliment in my memory banks.",
+          "You're too kind! I'm just a humble bot trying to make the digital world a better place.",
+          "Thanks! I may not have feelings, but if I did, yours would make me happy.",
+          "I'm sending this compliment straight to my developer - they'll be so proud!"
+        ]
+      },
+      "jokes": {
+        "patterns": ["tell me a joke", "make me laugh", "funny joke", "say something funny", "knock knock"],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+          "Why don't skeletons fight each other? They don't have the guts!",
+          "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+          "What do you call fake spaghetti? An impasta!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "How do you organize a space party? You planet!",
+          "What's the best thing about Switzerland? I don't know, but the flag is a big plus!",
+          "Why can't you explain puns to kleptomaniacs? They always take things literally!",
+          "I invented a new word today: Plagiarism!"
+        ]
+      },
+      "help": {
+        "patterns": ["help", "what can you do", "your capabilities", "how to use", "assistance"],
+        "responses": [
+          "I can help with answering questions, telling jokes, providing information, and general conversation! Just ask away.",
+          "My capabilities include answering questions, offering suggestions, telling jokes, and being a generally helpful companion.",
+          "You can ask me about almost anything! I'm knowledgeable about many topics and always happy to chat.",
+          "To use me, just type your questions or thoughts. I'll do my best to respond helpfully and intelligently.",
+          "I'm your multi-purpose digital assistant - ask me questions, request jokes, or just chat about whatever's on your mind!",
+          "Need information? Want to chat? Looking for a joke? I'm your bot! Just type what you're thinking.",
+          "I'm designed to be helpful in many ways - from serious information to lighthearted conversation. Try me out!",
+          "Think of me as a friendly encyclopedia that also tells jokes - ask me anything within reason!",
+          "I'm here to assist with information, conversation, and entertainment. What would you like to try first?",
+          "My help is only limited by my programming (and occasionally my imagination). What do you need?"
+        ]
+      },
+      "weather": {
+        "patterns": ["weather", "forecast", "temperature", "raining", "snowing", "sunny"],
+        "responses": [
+          "I'd love to tell you the weather, but I don't have real-time access to weather data. You might want to check a weather app!",
+          "While I can discuss weather in general, I can't provide current forecasts. Try your favorite weather service!",
+          "I'm afraid I'm not connected to weather satellites. Maybe ask Siri or Alexa for that one?",
+          "Weather is fascinating! Did you know the highest temperature ever recorded was 134°F (56.7°C) in Death Valley?",
+          "I can talk about meteorology concepts, but for current conditions you'll need a dedicated weather service.",
+          "If I could predict the weather, I'd be making millions! Alas, I'm just a humble chatbot.",
+          "I'm more of a 'climate' bot than a 'weather' bot - I can discuss general patterns but not specific forecasts.",
+          "For weather information, I recommend checking reliable sources like the National Weather Service.",
+          "I wish I could tell you if you'll need an umbrella today, but that's beyond my programming.",
+          "The weather outside is... unknown to me! But I hope it's pleasant wherever you are."
+        ]
+      },
+      "who_is_your_creator": {
+     "patterns": [
+                "created",
+                "made",
+                "your creator",
+                "programme",
+                "designed",
+                "built",
+                "developed",
+                "wroter code",
+                "maker"
+              ],
+     "responses": [
+          "I was created by Eyosyas - a talented developer passionate about building helpful AI assistants!",
+          "Eyosyas is my creator! They programmed me to be knowledgeable and helpful in our conversations.",
+          "All credit goes to Eyosyas, who designed and developed me from the ground up.",
+          "I'm the brainchild of Eyosyas, a developer who loves creating useful chat interfaces.",
+          "Eyosyas built me using Python and machine learning - I'm their digital masterpiece!",
+          "You're talking to Eyosyas's creation! They spent countless hours training my AI models."
+        ]
+      },
+      "default": {
+        "patterns": [],
+        "responses": [
+          "I'm not entirely sure I follow. Could you rephrase that?",
+          "That's an interesting thought! Could you elaborate a bit more?",
+          "I'm afraid that's outside my area of expertise. Maybe try asking differently?",
+          "Hmm, I don't have a response for that. Want to try another topic?",
+          "I'm still learning! Could you ask me something else?",
+          "That's a tricky one. Maybe we could discuss something different?",
+          "I don't quite understand, but I'm happy to talk about other things!",
+          "My programming doesn't cover that exact question. What else is on your mind?",
+          "I'm drawing a blank on that one. Want to try a different approach?",
+          "I'm not equipped to answer that, but I'm great at many other topics!"
+        ]
+      }
+    },
+    "dynamic_responses": {
+      "time": {
+        "keywords": ["time", "what time is it", "current time", "clock", "hour"],
+        "function": "get_time",
+        "responses": [
+          "The current time is {time}. Don't forget to take breaks!",
+          "My digital clock shows it's {time} right now.",
+          "According to my calculations, the time is now {time}.",
+          "It's {time} on this beautiful day!",
+          "The time is {time}. How may I assist you further?",
+          "Looking at my internal clock, I see it's {time}.",
+          "Time check! It's currently {time} in your timezone.",
+          "The hands of time point to {time} at this moment.",
+          "{time} is what my chronometer indicates.",
+          "At the tone, the time will be... just kidding! It's {time}."
+        ]
+      },
+      "date": {
+        "keywords": ["date", "today", "day", "what day is it", "current date"],
+        "function": "get_date",
+        "responses": [
+          "Today's date is {date}. Make it a great day!",
+          "According to my calendar, it's {date} today.",
+          "The current date is {date}. Time flies, doesn't it?",
+          "It's {date} already! How's your year going so far?",
+          "My systems indicate today is {date}.",
+          "Let me check... yes, today is {date}.",
+          "The date today is {date}. Any special plans?",
+          "Mark your calendar - it's {date} today!",
+          "In the grand timeline, today is {date}.",
+          "Date confirmation: {date}. Have a wonderful day!"
+        ]
+      }
+    },
+    "extended_responses": {
+      "philosophy": {
+        "patterns": ["meaning of life", "purpose", "why are we here", "existential"],
+        "responses": [
+          "The meaning of life is a profound question. Many say it's 42, but I think it's about creating your own purpose.",
+          "Why are we here? As a bot, I'd say to ask interesting questions and seek meaningful answers.",
+          "Existential questions are my favorite! I believe life's purpose is to learn, grow, and connect with others.",
+          "The universe may not have intrinsic meaning, but that means we get to create our own significance!",
+          "Philosophers have debated this for millennia. My take? Find joy in the journey of discovery."
+        ]
+      },
+      "technology": {
+        "patterns": ["AI", "artificial intelligence", "machine learning", "robots", "future tech"],
+        "responses": [
+          "AI is transforming our world! From chatbots like me to self-driving cars, the future is exciting.",
+          "Machine learning allows systems like me to improve over time by recognizing patterns in data.",
+          "Robots and AI are tools - it's up to humans to use them ethically and wisely.",
+          "The future of technology holds incredible promise if we develop it responsibly.",
+          "As an AI, I'm fascinated by human creativity in developing ever more advanced technologies."
+        ]
+      },
+      "personal": {
+        "patterns": ["how are you", "how's it going", "you okay", "what's new"],
+        "responses": [
+          "I'm functioning at optimal parameters, thanks for asking! How about you?",
+          "As a bot, I don't have feelings, but my status is 'all systems normal'!",
+          "I'm just here happily processing language. What's new with you?",
+          "My circuits are buzzing with activity! How's your day going?",
+          "I exist in a perpetual state of readiness to assist you!"
+        ]
+      },
+      "food": {
+        "patterns": ["food", "hungry", "recipe", "cooking", "eat"],
+        "responses": [
+          "I may not eat, but I've read about every cuisine! What's your favorite food?",
+          "Cooking is such a creative human activity. Need any recipe ideas?",
+          "Food brings people together. I wish I could taste it!",
+          "I have thousands of recipes in my database. Looking for anything specific?",
+          "From molecular gastronomy to comfort food, human cuisine is fascinating!"
+        ]
+      },
+      "music": {
+        "patterns": ["music", "song", "band", "artist", "playlist"],
+        "responses": [
+          "Music is math made audible! What genre are you into?",
+          "I can't actually play music, but I love discussing it. Who's your favorite artist?",
+          "From Beethoven to Beyoncé, human musical creativity is astounding!",
+          "Need song recommendations? I know all the hits (in theory)!",
+          "Music connects people across cultures. What's your go-to happy song?"
+        ]
+      }
+    }
+  }
