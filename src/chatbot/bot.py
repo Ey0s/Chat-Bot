@@ -8,7 +8,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-
+#chat bot class
 class ChatBot:
     def __init__(self, json_file: Path, creator_name: str = "Eyosyas"):
         self.creator = creator_name
