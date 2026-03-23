@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import List
 
-
+#history saving class
 class JSONStorage:
     def __init__(self, file_path: Path):
         self.file_path = file_path
