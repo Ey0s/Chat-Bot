@@ -7,7 +7,7 @@ import customtkinter as ctk
 from .bot import ChatBot
 from .storage import JSONStorage
 
-
+#chat app ui class
 class ChatApp:
     def __init__(self, root: ctk.CTk, chatbot: ChatBot, storage: JSONStorage):
         self.chatbot = chatbot
