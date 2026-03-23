@@ -8,7 +8,7 @@ from .bot import ChatBot
 from .storage import JSONStorage
 from .ui import ChatApp
 
-
+#data path
 def resolve_data_paths(project_root: Path) -> tuple[Path, Path]:
     responses_path = project_root / "data" / "responses.json"
     legacy_responses_path = project_root / "responses.json"
